@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large competition datasets (Kaggle Playground Series s6e11)
+train.csv
+test.csv
+sample_submission.csv
+
+# Generated predictions & submissions
+submission*.csv
+
+# Model checkpoints & weights
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Out-of-fold and test predictions cache
+*.npy
+*.npz
+
+# Training logs & cache
+catboost_info/
+lightning_logs/
+wandb/
+.optuna/
